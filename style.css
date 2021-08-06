@@ -290,13 +290,13 @@ body {
 .section-3 .content-box {
   height: 501px;
 }
-.section-3 .content-box div {
+.section-3 .content-box .video-box {
   margin-left: 5%;
   padding-top: 5%;
   width: 1171px;
   height: 90%;
 }
-.section-3 .content-box div .video {
+.section-3 .content-box .video-box .video {
   margin: auto;
   width: 559px;
   height: 354px;
