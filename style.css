@@ -10,22 +10,27 @@ body {
 }
 
 .index-1 {
+  position: relative;
   z-index: 1;
 }
 
 .index-2 {
+  position: relative;
   z-index: 2;
 }
 
 .index-3 {
+  position: relative;
   z-index: 3;
 }
 
 .index-4 {
+  position: relative;
   z-index: 4;
 }
 
 .index-5 {
+  position: relative;
   z-index: 5;
 }
 
@@ -142,7 +147,10 @@ body {
   width: 1122px;
   height: 673px;
   top: 30%;
+  right: 0;
   left: 40%;
+  overflow: hidden;
+  margin-top: -26.7%;
 }
 
 .new {
@@ -466,6 +474,7 @@ body {
 .section-5 .content-box-2 .music-container .music .play img {
   width: 18px;
   height: 18px;
+  margin-left: 2%;
 }
 
 .section-6 {
