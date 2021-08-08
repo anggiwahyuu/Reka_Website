@@ -103,9 +103,12 @@ body {
 }
 
 .title-reka {
+  width: 459px;
+  height: 216px;
   font-size: 48px;
   line-height: 72px;
   font-weight: 700;
+  animation: none;
 }
 
 .reka-para {
@@ -480,7 +483,7 @@ body {
 .section-6 {
   margin-top: 5%;
 }
-.section-6 img {
+.section-6 .character-2 {
   margin: auto;
   width: 1514px;
   height: 757px;
