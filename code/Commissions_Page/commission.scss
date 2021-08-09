@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+
+.section1{
+    width: 100%;
+    height: 984.5px;
+    margin-top: -10%;
+
+    .container-fluid{
+        .text{
+            padding-top: 23%;
+            padding-left: 10%;
+
+            h1{
+                font-weight: 800;
+                font-size: 48px;
+                line-height: 72px;
+                color: white;
+            }
+            p{
+                font-size: 18px;
+                line-height: 27px;
+                color: white;
+            }
+            button{
+                width: 283px;
+                height: 71px;
+                border: 2px solid white;
+                border-radius: 50px;
+                box-sizing: border-box;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 36px;
+                text-align: center;
+                color: white;
+            }
+        }
+        img{
+            position: relative;
+            width: 50%;
+            height: 983.4px;
+            right: 0;
+            left: 51%;
+            margin-top: -44.46%;
+        }
+    }
+}
+
+.section-2{
+    width: 100%;
+    height: 893px;
+    margin-top: 0;
+    background: linear-gradient(180deg, #000F26 0%, #000000 100%);
+
+    .text{
+        padding-top: 7%;
+
+        h3{
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+            color: #5084FF;
+            text-align: center;
+        }
+
+        h1{
+            font-weight: 800;
+            font-size: 48px;
+            line-height: 72px;
+            color: white;
+            text-align: center;
+        }
+    }
+
+    .box-container{
+        margin: auto;
+        width: 1300px;
+        height: 524px;
+        display: flex;
+
+        .box{
+            width: 608px;
+            height: 523px;
+            border-radius: 30px;
+            background-color: #191723;
+
+            .inbox{
+                .official{
+                    width: 169px;
+                    height: 35px;
+                    border-radius: 50px;
+                    background-color: #0C39A1;
+
+                    p{
+                        font-weight: 700;
+                        font-size: 14px;
+                        line-height: 35px;
+                        color: white;
+                        text-align: center;
+                    }
+                }
+            }
+
+            img{
+                width: 350px;
+                height: 60px;
+                margin-top: 6%;
+            }
+
+            #reka{
+                width: 528px;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 27px;
+                color: white;
+                margin-top: 6%;
+                span{ font-weight: 400; } 
+            }
+
+            #txt{
+                font-size: 14px;
+                line-height: 21px;
+                color: #606060;
+                span{ margin-left: 55%; }
+            }
+
+            .indikator{
+                display: flex;
+
+                #price{
+                    width: 147px;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 36px;
+                    color: #52CF3E;
+                    span{ color: white; }
+                }
+
+                .slot{
+                    display: flex;
+                    position: relative;
+                    left: 32%;
+
+                    #slot-indikator{
+                        width: 157px;
+                        height: 31px;
+                        border-radius: 50px;
+                        background-color: #2F2C3B;
+
+                        #slot{
+                            width: 50%;
+                            height: 31px;
+                            border-radius: 50px;
+                            background-color: #52CF3E;
+                        }
+                    }
+
+                    #jumlah-slot{
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 27px;
+                        color: white;
+                        span{ color: #52CF3E; }
+                    }
+                }
+            }
+
+            .button{
+                display: flex;
+
+                #btn-left{
+                    border: none;
+                    width: 254px;
+                    height: 40px;
+                    border-radius: 10px;
+                    background-color: #0C39A1;
+                    font-weight: 700;
+                    font-size: 14px;
+                    text-align: center;
+                    color: white;
+                    &:active{ background-color: #05173f; }
+                }
+
+                #btn-right{
+                    border: none;
+                    width: 254px;
+                    height: 40px;
+                    border-radius: 10px;
+                    background-color: #2F2C3C;
+                    font-weight: 700;
+                    font-size: 14px;
+                    text-align: center;
+                    color: white;
+                    &:active{ background-color: #131118; }
+                }
+            }
+        }
+    }
+}
+
+.section-3{
+    .text{
+        h3{
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+            color: #52CF3E;
+            text-align: center;
+        }
+
+        h1{
+            font-weight: 800;
+            font-size: 48px;
+            line-height: 72px;
+            color: black;
+            text-align: center;
+        }
+    }
+
+    .partner{
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        width: 1298px;
+        overflow: hidden;
+
+        .box{
+            position: relative;
+            width: 302px;
+            height: 432px;
+            border-radius: 30px;
+            margin-bottom: 2%;
+            background-color: white;
+
+            img{
+                border-radius: 30px;
+            }
+
+            .profile{
+                display: flex;
+
+                img{
+                    width: 23px;
+                    height: 23px;
+                    border-radius: 50%;
+                    background-color: #C4C4C4;
+                }
+
+                #name{
+                    height: 23px;
+                    font-size: 10px;
+                    line-height: 25px;
+                    color: #111111;
+                    margin-left: 3%;
+                }
+            }
+
+            #keterangan{
+                font-weight: 600;
+                font-size: 11px;
+                line-height: 16.5px;
+                color: #171717;
+            }
+
+            #harga-diskon{
+                font-weight: 400;
+                font-size: 9px;
+                line-height: 13.5px;
+                color: #A7A7A7;
+                span{ margin-left: 56%; }
+            }
+
+            .harga-diskon{
+                display: flex;
+
+                #harga{
+                    width: 120px;
+                    font-weight: 800;
+                    font-size: 18px;
+                    line-height: 27px;
+                    color: #0D0D0D;
+                }
+
+                #diskon{
+                    width: 70px;
+                    height: 25px;
+                    border-radius: 50px;
+                    background-color: #D83434;
+                    margin-left: 27%;
+
+                    p{
+                        font-weight: 800;
+                        font-size: 10px;
+                        line-height: 25px;
+                        color: white;
+                        text-align: center;
+                    }
+                }
+            }
+
+            #btn-detail{
+                border: none;
+                width: 269px;
+                height: 49px;
+                border-radius: 20px;
+                background-color: #0C39A1;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 21px;
+                color: white;
+                &:active{ background-color: #071944; }
+            }
+        }
+    }
+}

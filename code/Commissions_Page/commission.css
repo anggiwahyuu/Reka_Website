@@ -1,0 +1,296 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #E5E5E5;
+}
+
+.section1 {
+  width: 100%;
+  height: 984.5px;
+  margin-top: -10%;
+}
+.section1 .container-fluid .text {
+  padding-top: 23%;
+  padding-left: 10%;
+}
+.section1 .container-fluid .text h1 {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 72px;
+  color: white;
+}
+.section1 .container-fluid .text p {
+  font-size: 18px;
+  line-height: 27px;
+  color: white;
+}
+.section1 .container-fluid .text button {
+  width: 283px;
+  height: 71px;
+  border: 2px solid white;
+  border-radius: 50px;
+  box-sizing: border-box;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: white;
+}
+.section1 .container-fluid img {
+  position: relative;
+  width: 50%;
+  height: 983.4px;
+  right: 0;
+  left: 51%;
+  margin-top: -44.46%;
+}
+
+.section-2 {
+  width: 100%;
+  height: 893px;
+  margin-top: 0;
+  background: linear-gradient(180deg, #000F26 0%, #000000 100%);
+}
+.section-2 .text {
+  padding-top: 7%;
+}
+.section-2 .text h3 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #5084FF;
+  text-align: center;
+}
+.section-2 .text h1 {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 72px;
+  color: white;
+  text-align: center;
+}
+.section-2 .box-container {
+  margin: auto;
+  width: 1300px;
+  height: 524px;
+  display: flex;
+}
+.section-2 .box-container .box {
+  width: 608px;
+  height: 523px;
+  border-radius: 30px;
+  background-color: #191723;
+}
+.section-2 .box-container .box .inbox .official {
+  width: 169px;
+  height: 35px;
+  border-radius: 50px;
+  background-color: #0C39A1;
+}
+.section-2 .box-container .box .inbox .official p {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 35px;
+  color: white;
+  text-align: center;
+}
+.section-2 .box-container .box img {
+  width: 350px;
+  height: 60px;
+  margin-top: 6%;
+}
+.section-2 .box-container .box #reka {
+  width: 528px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: white;
+  margin-top: 6%;
+}
+.section-2 .box-container .box #reka span {
+  font-weight: 400;
+}
+.section-2 .box-container .box #txt {
+  font-size: 14px;
+  line-height: 21px;
+  color: #606060;
+}
+.section-2 .box-container .box #txt span {
+  margin-left: 55%;
+}
+.section-2 .box-container .box .indikator {
+  display: flex;
+}
+.section-2 .box-container .box .indikator #price {
+  width: 147px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #52CF3E;
+}
+.section-2 .box-container .box .indikator #price span {
+  color: white;
+}
+.section-2 .box-container .box .indikator .slot {
+  display: flex;
+  position: relative;
+  left: 32%;
+}
+.section-2 .box-container .box .indikator .slot #slot-indikator {
+  width: 157px;
+  height: 31px;
+  border-radius: 50px;
+  background-color: #2F2C3B;
+}
+.section-2 .box-container .box .indikator .slot #slot-indikator #slot {
+  width: 50%;
+  height: 31px;
+  border-radius: 50px;
+  background-color: #52CF3E;
+}
+.section-2 .box-container .box .indikator .slot #jumlah-slot {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: white;
+}
+.section-2 .box-container .box .indikator .slot #jumlah-slot span {
+  color: #52CF3E;
+}
+.section-2 .box-container .box .button {
+  display: flex;
+}
+.section-2 .box-container .box .button #btn-left {
+  border: none;
+  width: 254px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #0C39A1;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  color: white;
+}
+.section-2 .box-container .box .button #btn-left:active {
+  background-color: #05173f;
+}
+.section-2 .box-container .box .button #btn-right {
+  border: none;
+  width: 254px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #2F2C3C;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  color: white;
+}
+.section-2 .box-container .box .button #btn-right:active {
+  background-color: #131118;
+}
+
+.section-3 .text h3 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #52CF3E;
+  text-align: center;
+}
+.section-3 .text h1 {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 72px;
+  color: black;
+  text-align: center;
+}
+.section-3 .partner {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 1298px;
+  overflow: hidden;
+}
+.section-3 .partner .box {
+  position: relative;
+  width: 302px;
+  height: 432px;
+  border-radius: 30px;
+  margin-bottom: 2%;
+  background-color: white;
+}
+.section-3 .partner .box img {
+  border-radius: 30px;
+}
+.section-3 .partner .box .profile {
+  display: flex;
+}
+.section-3 .partner .box .profile img {
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  background-color: #C4C4C4;
+}
+.section-3 .partner .box .profile #name {
+  height: 23px;
+  font-size: 10px;
+  line-height: 25px;
+  color: #111111;
+  margin-left: 3%;
+}
+.section-3 .partner .box #keterangan {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 16.5px;
+  color: #171717;
+}
+.section-3 .partner .box #harga-diskon {
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 13.5px;
+  color: #A7A7A7;
+}
+.section-3 .partner .box #harga-diskon span {
+  margin-left: 56%;
+}
+.section-3 .partner .box .harga-diskon {
+  display: flex;
+}
+.section-3 .partner .box .harga-diskon #harga {
+  width: 120px;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 27px;
+  color: #0D0D0D;
+}
+.section-3 .partner .box .harga-diskon #diskon {
+  width: 70px;
+  height: 25px;
+  border-radius: 50px;
+  background-color: #D83434;
+  margin-left: 27%;
+}
+.section-3 .partner .box .harga-diskon #diskon p {
+  font-weight: 800;
+  font-size: 10px;
+  line-height: 25px;
+  color: white;
+  text-align: center;
+}
+.section-3 .partner .box #btn-detail {
+  border: none;
+  width: 269px;
+  height: 49px;
+  border-radius: 20px;
+  background-color: #0C39A1;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  color: white;
+}
+.section-3 .partner .box #btn-detail:active {
+  background-color: #071944;
+}
+
+/*# sourceMappingURL=commission.css.map */
