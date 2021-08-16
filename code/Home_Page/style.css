@@ -581,4 +581,67 @@ footer .copyright p {
   font-weight: 500;
 }
 
+@media (max-width: 720px) {
+  .section-1 .typewriter .typewriter .title-reka {
+    width: 100%;
+    font-size: 200%;
+  }
+  .section-1 .character {
+    display: none;
+  }
+
+  .section-2 h3 {
+    width: 100%;
+    font-size: 120%;
+    margin: auto;
+  }
+  .section-2 h1 {
+    width: 90%;
+    font-size: 240%;
+    margin: auto;
+  }
+  .section-2 .content-box {
+    width: 90%;
+    height: 300px;
+  }
+
+  .section-3 h3 {
+    width: 100%;
+    font-size: 120%;
+    margin: auto;
+  }
+  .section-3 h1 {
+    width: 90%;
+    font-size: 240%;
+    margin: auto;
+  }
+  .section-3 .content-box {
+    width: 90%;
+    height: 300px;
+  }
+  .section-3 .content-box .video-box {
+    width: 90%;
+  }
+  .section-3 .content-box .video-box .video {
+    width: 44.7%;
+    height: 240px;
+  }
+
+  .section-4 h3 {
+    width: 100%;
+    font-size: 120%;
+    margin: auto;
+  }
+  .section-4 h1 {
+    width: 90%;
+    font-size: 240%;
+    margin: auto;
+  }
+  .section-4 .content-box {
+    width: 90%;
+    height: 600px;
+    flex-direction: column;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
