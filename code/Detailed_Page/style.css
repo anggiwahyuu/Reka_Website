@@ -7,43 +7,47 @@ body {
   height: 100%;
 }
 
-.content {
-  display: flex;
+.main {
+  height: 2000px;
   width: 100%;
   border-top-left-radius: 70px;
   border-top-right-radius: 70px;
   background-color: white;
   margin-top: 5%;
+  margin-bottom: -15%;
 }
-.content .left {
-  padding-top: 5%;
-  margin-left: 8%;
+.main .content {
+  display: flex;
+  padding-top: 6%;
+  padding-left: 9%;
+}
+.main .content .left {
   width: 775px;
 }
-.content .left .title {
+.main .content .left .title {
   width: 614px;
   font-weight: 700;
   font-size: 36px;
   line-height: 54px;
   color: #0E0E0E;
 }
-.content .left .author {
+.main .content .left .author {
   display: flex;
 }
-.content .left .author .profile {
+.main .content .left .author .profile {
   width: 23px;
   height: 23px;
   border: none;
   border-radius: 50%;
   background: none;
 }
-.content .left .author #nickname {
+.main .content .left .author #nickname {
   font-weight: 600;
   font-size: 10px;
   line-height: 25px;
   color: #111111;
 }
-.content .left .author #pos {
+.main .content .left .author #pos {
   width: 78px;
   height: 16px;
   border: none;
@@ -56,90 +60,91 @@ body {
   text-align: center;
   margin-top: 5px;
 }
-.content .left .carousel {
+.main .content .left .carousel {
   width: 685px;
   height: 342px;
   border: none;
   border-radius: 10px;
   background: black;
 }
-.content .left .carousel .carousel-indicators {
+.main .content .left .carousel .carousel-indicators {
   margin-left: 0;
   width: 685px;
   position: absolute;
   top: 105%;
 }
-.content .left .carousel .carousel-indicators button {
+.main .content .left .carousel .carousel-indicators button {
   width: 155px;
   height: 77.77px;
   border: none;
   border-radius: 10px;
   background: none;
 }
-.content .left .carousel .carousel-indicators button:nth-child(1) {
+.main .content .left .carousel .carousel-indicators button:nth-child(1) {
   background: url("./arti-random-dalam-bahasa-gaul.jpg");
   background-size: cover;
 }
-.content .left .carousel .carousel-indicators button:nth-child(2) {
+.main .content .left .carousel .carousel-indicators button:nth-child(2) {
   background: url("./header.jpg");
   background-size: cover;
 }
-.content .left .carousel .carousel-indicators button:nth-child(3) {
+.main .content .left .carousel .carousel-indicators button:nth-child(3) {
   background: url("./ngakak-6-momen-makan-random-di-tahun-2020-yang-viral-1.jpeg");
   background-size: cover;
 }
-.content .left .carousel .carousel-indicators button:nth-child(4) {
+.main .content .left .carousel .carousel-indicators button:nth-child(4) {
   background: url("./Random-1024x598.png");
   background-size: cover;
 }
-.content .left .carousel .carousel-indicators button:nth-child(5) {
+.main .content .left .carousel .carousel-indicators button:nth-child(5) {
   background: url("./images.jpeg");
   background-size: cover;
 }
-.content .left .carousel .carousel-indicators button:nth-child(6) {
+.main .content .left .carousel .carousel-indicators button:nth-child(6) {
   background: url("./imagesss.jpeg");
   background-size: cover;
 }
-.content .left .carousel .carousel-indicators button:nth-child(7) {
+.main .content .left .carousel .carousel-indicators button:nth-child(7) {
   background: url("./random-tes-covid-19-menhub-kalau-belum-sehat-di-rumah-saja-4K5PPgDoQ7.jpg");
   background-size: cover;
 }
-.content .left .carousel .carousel-indicators button:nth-child(8) {
+.main .content .left .carousel .carousel-indicators button:nth-child(8) {
   background: url("./shutterstock_1204515631-compressor.jpg");
   background-size: cover;
 }
-.content .left .carousel .carousel-inner .carousel-item img {
+.main .content .left .carousel .carousel-inner .carousel-item img {
   width: 685px;
   height: 342px;
   border: none;
   border-radius: 10px;
   background: none;
 }
-.content .left .sub-title {
+.main .content .left .sub-title {
   font-weight: 700;
   font-size: 24px;
   line-height: 36px;
   color: #0E0E0E;
   margin-top: 20%;
 }
-.content .left .article {
+.main .content .left .article {
   width: 684px;
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
   color: #313131;
 }
-.content .card {
+.main .content .card {
   width: 510px;
   height: 621px;
   border: 1px solid #898989;
   border-radius: 10px;
   background: white;
+  margin-left: 10%;
 }
-.content .card .btn-container {
+.main .content .card .btn-container {
   display: flex;
 }
-.content .card .btn-container button {
+.main .content .card .btn-container button {
   width: 171px;
   height: 84px;
   border: 1px solid #9C9C9C;
@@ -151,67 +156,73 @@ body {
   color: #434343;
   box-sizing: border-box;
 }
-.content .card .btn-container button:nth-child(1) {
+.main .content .card .btn-container button:nth-child(1) {
   border-top-left-radius: 10px;
 }
-.content .card .btn-container button:nth-child(3) {
+.main .content .card .btn-container button:nth-child(3) {
   border-top-right-radius: 10px;
 }
-.content .card .btn-container button:nth-child(1).active {
+.main .content .card .btn-container button:nth-child(1).active {
   border-bottom: 5px solid #1E40AF;
   background-color: white;
   color: #1E40AF;
 }
-.content .card .btn-container button:nth-child(2).active {
+.main .content .card .btn-container button:nth-child(2).active {
   border-bottom: 5px solid #1E40AF;
   background-color: white;
   color: #1E40AF;
 }
-.content .card .btn-container button:nth-child(3).active {
+.main .content .card .btn-container button:nth-child(3).active {
   border-bottom: 5px solid #1E40AF;
   background-color: white;
   color: #1E40AF;
 }
-.content .card .card-content {
+.main .content .card .card-content {
   margin-top: 8%;
   margin-left: 6%;
 }
-.content .card .card-content p:nth-child(1) {
+.main .content .card .card-content div:nth-child(1) {
   font-weight: 600;
   font-size: 18px;
   line-height: 27px;
   color: #1D1D1D;
-  margin-bottom: 5%;
-  width: 425px;
+  margin-bottom: 2%;
+  display: flex;
 }
-.content .card .card-content p:nth-child(1) #nama {
-  padding-right: 40%;
+.main .content .card .card-content div:nth-child(1) #nama {
+  width: 263px;
+  margin-right: 3%;
 }
-.content .card .card-content #keterangan {
+.main .content .card .card-content div:nth-child(1) #harga {
+  width: 162px;
+  text-align: end;
+}
+.main .content .card .card-content #keterangan {
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
   color: #1D1D1D;
   width: 263px;
-  margin-bottom: 9%;
+  height: 43px;
+  margin-bottom: 8%;
 }
-.content .card .card-content p:nth-child(3) {
+.main .content .card .card-content p:nth-child(3) {
   font-weight: 600;
   font-size: 14px;
   line-height: 21px;
   color: #1D1D1D;
 }
-.content .card .card-content p:nth-child(3) #deadline {
+.main .content .card .card-content p:nth-child(3) #deadline {
   margin-left: 3%;
   margin-right: 7%;
 }
-.content .card .card-content p:nth-child(3) #revisi {
+.main .content .card .card-content p:nth-child(3) #revisi {
   margin-left: 3%;
 }
-.content .card .card-content ul {
+.main .content .card .card-content ul {
   margin-left: -2.4%;
 }
-.content .card .card-content ul li {
+.main .content .card .card-content ul li {
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
@@ -220,13 +231,19 @@ body {
   padding-left: 3%;
   padding-bottom: 2%;
 }
-.content .card .card-content ul li:nth-child(1) {
+.main .content .card .card-content ul li:nth-child(1) {
   list-style-image: url(../../assets/check_blue.png);
 }
-.content .card .card-content ul li:nth-child(5) {
+.main .content .card .card-content ul li:nth-child(5) {
   list-style-image: url(../../assets/check_blue.png);
 }
-.content .card .card-content #btn-pesan {
+.main .content .card .card-content ul #li-3.active {
+  list-style-image: url(../../assets/check_blue.png);
+}
+.main .content .card .card-content ul #li-4.active {
+  list-style-image: url(../../assets/check_blue.png);
+}
+.main .content .card .card-content #btn-pesan {
   width: 450px;
   height: 58px;
   border: none;
@@ -237,10 +254,10 @@ body {
   line-height: 27px;
   color: white;
 }
-.content .card .card-content #btn-pesan:active {
+.main .content .card .card-content #btn-pesan:active {
   background-color: #142663;
 }
-.content .card .card-content #btn-call {
+.main .content .card .card-content #btn-call {
   width: 450px;
   height: 58px;
   border: 1px solid #898989;
@@ -252,7 +269,7 @@ body {
   color: #1D1D1D;
   margin-top: 2%;
 }
-.content .card .card-content #btn-call:active {
+.main .content .card .card-content #btn-call:active {
   background-color: #999999;
 }
 

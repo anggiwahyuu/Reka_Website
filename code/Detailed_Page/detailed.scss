@@ -22,178 +22,192 @@ body{
     height: 100%;
 }
 
-.content{
-    display: flex;
+.main{
+    height: 2000px;
     width: 100%;
     border-top-left-radius: 70px;
     border-top-right-radius: 70px;
     background-color: white;
     margin-top: 5%;
+    margin-bottom: -15%;
 
-    .left{
-        padding-top: 5%;
-        margin-left: 8%;
-        width: 775px;
+    .content{
+        display: flex;
+        padding-top: 6%;
+        padding-left: 9%;
 
-        .title{
-            width: 614px;
-            @include textProperty(700, 36px, 54px, #0E0E0E);
-        }
-        .author{
-            display: flex;
-            
-            .profile{
-                @include boxProperty(23px, 23px, none, 50%, none)
-            }
-            #nickname{
-                @include textProperty(600, 10px, 25px, #111111);
-            }
-            #pos{
-                @include boxProperty(78px, 16px, none, 50px, #8FEE87);
-                @include textProperty(800, 5px, 16px, #1B5C04);
-                text-align: center;
-                margin-top: 5px;
-            }
-        }
-        .carousel{
-            @include boxProperty(685px, 342px, none, 10px, black);
+        .left{
+            width: 775px;
 
-            .carousel-indicators{
-                margin-left: 0;
-                width: 685px;
-                position: absolute;
-                top: 105%;
-                button{
-                    @include boxProperty(155px, 77.77px, none, 10px, none);
+            .title{
+                width: 614px;
+                @include textProperty(700, 36px, 54px, #0E0E0E);
+            }
+            .author{
+                display: flex;
+                
+                .profile{
+                    @include boxProperty(23px, 23px, none, 50%, none)
                 }
-                button:nth-child(1){
-                    background: url("./arti-random-dalam-bahasa-gaul.jpg");
-                    background-size: cover;
+                #nickname{
+                    @include textProperty(600, 10px, 25px, #111111);
                 }
-                button:nth-child(2){
-                    background: url("./header.jpg");
-                    background-size: cover;
-                }
-                button:nth-child(3){
-                    background: url("./ngakak-6-momen-makan-random-di-tahun-2020-yang-viral-1.jpeg");
-                    background-size: cover;
-                }
-                button:nth-child(4){
-                    background: url("./Random-1024x598.png");
-                    background-size: cover;
-                }
-                button:nth-child(5){
-                    background: url("./images.jpeg");
-                    background-size: cover;
-                }
-                button:nth-child(6){
-                    background: url("./imagesss.jpeg");
-                    background-size: cover;
-                }
-                button:nth-child(7){
-                    background: url("./random-tes-covid-19-menhub-kalau-belum-sehat-di-rumah-saja-4K5PPgDoQ7.jpg");
-                    background-size: cover;
-                }
-                button:nth-child(8){
-                    background: url("./shutterstock_1204515631-compressor.jpg");
-                    background-size: cover;
+                #pos{
+                    @include boxProperty(78px, 16px, none, 50px, #8FEE87);
+                    @include textProperty(800, 5px, 16px, #1B5C04);
+                    text-align: center;
+                    margin-top: 5px;
                 }
             }
-            .carousel-inner{
-                .carousel-item{
-                    img{
-                        @include boxProperty(685px, 342px, none, 10px, none);
+            .carousel{
+                @include boxProperty(685px, 342px, none, 10px, black);
+
+                .carousel-indicators{
+                    margin-left: 0;
+                    width: 685px;
+                    position: absolute;
+                    top: 105%;
+                    button{
+                        @include boxProperty(155px, 77.77px, none, 10px, none);
+                    }
+                    button:nth-child(1){
+                        background: url("./arti-random-dalam-bahasa-gaul.jpg");
+                        background-size: cover;
+                    }
+                    button:nth-child(2){
+                        background: url("./header.jpg");
+                        background-size: cover;
+                    }
+                    button:nth-child(3){
+                        background: url("./ngakak-6-momen-makan-random-di-tahun-2020-yang-viral-1.jpeg");
+                        background-size: cover;
+                    }
+                    button:nth-child(4){
+                        background: url("./Random-1024x598.png");
+                        background-size: cover;
+                    }
+                    button:nth-child(5){
+                        background: url("./images.jpeg");
+                        background-size: cover;
+                    }
+                    button:nth-child(6){
+                        background: url("./imagesss.jpeg");
+                        background-size: cover;
+                    }
+                    button:nth-child(7){
+                        background: url("./random-tes-covid-19-menhub-kalau-belum-sehat-di-rumah-saja-4K5PPgDoQ7.jpg");
+                        background-size: cover;
+                    }
+                    button:nth-child(8){
+                        background: url("./shutterstock_1204515631-compressor.jpg");
+                        background-size: cover;
+                    }
+                }
+                .carousel-inner{
+                    .carousel-item{
+                        img{
+                            @include boxProperty(685px, 342px, none, 10px, none);
+                        }
                     }
                 }
             }
+            .sub-title{
+                @include textProperty(700, 24px, 36px, #0E0E0E);
+                margin-top: 20%;
+            }
+            .article{
+                width: 684px;
+                @include textProperty(400, 18px, 27px, #313131);
+            }
         }
-        .sub-title{
-            @include textProperty(700, 24px, 36px, #0E0E0E);
-            margin-top: 20%;
-        }
-        .article{
-            width: 684px;
-            @include textProperty(400, 18px, 27px, #313131);
-        }
-    }
-    .card{
-        @include boxProperty(510px, 621px, 1px solid #898989, 10px, white);
+        .card{
+            @include boxProperty(510px, 621px, 1px solid #898989, 10px, white);
+            margin-left: 10%;
 
-        .btn-container{
-            display: flex;
-            button{
-                @include boxProperty(171px, 84px, 1px solid #9C9C9C, none, #E2E2E2);
-                @include textProperty(600, 24px, 36px, #434343);
-                box-sizing: border-box;
-            }
-            button:nth-child(1){
-                border-top-left-radius: 10px;
-            }
-            button:nth-child(3){
-                border-top-right-radius: 10px;
-            }
-            button:nth-child(1).active{
-                border-bottom: 5px solid #1E40AF;
-                background-color: white;
-                color: #1E40AF;
-            }
-            button:nth-child(2).active{
-                border-bottom: 5px solid #1E40AF;
-                background-color: white;
-                color: #1E40AF;
-            }
-            button:nth-child(3).active{
-                border-bottom: 5px solid #1E40AF;
-                background-color: white;
-                color: #1E40AF;
-            }
-        }
-        .card-content{
-            margin-top: 8%;
-            margin-left: 6%;
-
-            p:nth-child(1){
-                @include textProperty(600, 18px, 27px, #1D1D1D);
-                margin-bottom: 5%;
-                width: 425px;
-                #nama{ 
-                    padding-right: 40%;
+            .btn-container{
+                display: flex;
+                button{
+                    @include boxProperty(171px, 84px, 1px solid #9C9C9C, none, #E2E2E2);
+                    @include textProperty(600, 24px, 36px, #434343);
+                    box-sizing: border-box;
+                }
+                button:nth-child(1){
+                    border-top-left-radius: 10px;
+                }
+                button:nth-child(3){
+                    border-top-right-radius: 10px;
+                }
+                button:nth-child(1).active{
+                    border-bottom: 5px solid #1E40AF;
+                    background-color: white;
+                    color: #1E40AF;
+                }
+                button:nth-child(2).active{
+                    border-bottom: 5px solid #1E40AF;
+                    background-color: white;
+                    color: #1E40AF;
+                }
+                button:nth-child(3).active{
+                    border-bottom: 5px solid #1E40AF;
+                    background-color: white;
+                    color: #1E40AF;
                 }
             }
-            #keterangan{
-                @include textProperty(400, 14px, 21px, #1D1D1D);
-                width: 263px;
-                margin-bottom: 9%;
-            }
-            p:nth-child(3){
-                @include textProperty(600, 14px, 21px, #1D1D1D);
-                #deadline{ 
-                    margin-left: 3%; 
-                    margin-right: 7%;
+            .card-content{
+                margin-top: 8%;
+                margin-left: 6%;
+
+                div:nth-child(1){
+                    @include textProperty(600, 18px, 27px, #1D1D1D);
+                    margin-bottom: 2%;
+                    display: flex;
+                    #nama{ 
+                        width: 263px;
+                        margin-right: 3%;
+                    }
+                    #harga{
+                        width: 162px;
+                        text-align: end;
+                    }
                 }
-                #revisi{ margin-left: 3%; }
-            }
-            ul{
-                margin-left: -2.4%;
-                li{
+                #keterangan{
                     @include textProperty(400, 14px, 21px, #1D1D1D);
-                    list-style-image: url("../../assets/check_gray.png");
-                    padding-left: 3%;
-                    padding-bottom: 2%;
+                    width: 263px;
+                    height: 43px;
+                    margin-bottom: 8%;
                 }
-                li:nth-child(1){ list-style-image: url(../../assets/check_blue.png); }
-                li:nth-child(5){ list-style-image: url(../../assets/check_blue.png); }
-            }
-            #btn-pesan{
-                @include boxProperty(450px, 58px, none, 10px, #1E40AF);
-                @include textProperty(600, 18px, 27px, white);
-                &:active{ background-color: #142663; }
-            }
-            #btn-call{
-                @include boxProperty(450px, 58px, 1px solid #898989, 10px, white);
-                @include textProperty(600, 18px, 27px, #1D1D1D);
-                margin-top: 2%;
-                &:active{ background-color: rgb(153, 153, 153); }
+                p:nth-child(3){
+                    @include textProperty(600, 14px, 21px, #1D1D1D);
+                    #deadline{ 
+                        margin-left: 3%; 
+                        margin-right: 7%;
+                    }
+                    #revisi{ margin-left: 3%; }
+                }
+                ul{
+                    margin-left: -2.4%;
+                    li{
+                        @include textProperty(400, 14px, 21px, #1D1D1D);
+                        list-style-image: url("../../assets/check_gray.png");
+                        padding-left: 3%;
+                        padding-bottom: 2%;
+                    }
+                    li:nth-child(1){ list-style-image: url(../../assets/check_blue.png); }
+                    li:nth-child(5){ list-style-image: url(../../assets/check_blue.png); }
+                    #li-3.active{ list-style-image: url(../../assets/check_blue.png); }
+                    #li-4.active{ list-style-image: url(../../assets/check_blue.png); }
+                }
+                #btn-pesan{
+                    @include boxProperty(450px, 58px, none, 10px, #1E40AF);
+                    @include textProperty(600, 18px, 27px, white);
+                    &:active{ background-color: #142663; }
+                }
+                #btn-call{
+                    @include boxProperty(450px, 58px, 1px solid #898989, 10px, white);
+                    @include textProperty(600, 18px, 27px, #1D1D1D);
+                    margin-top: 2%;
+                    &:active{ background-color: rgb(153, 153, 153); }
+                }
             }
         }
     }
