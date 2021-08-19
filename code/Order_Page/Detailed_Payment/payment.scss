@@ -1,0 +1,103 @@
+@mixin textProperty($weight, $size, $line, $color){
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $line;
+    color: $color;
+}
+
+@mixin boxProperty($width, $height, $border, $radius, $bg){
+    width: $width;
+    height: $height;
+    border: $border;
+    border-radius: $radius;
+    background: $bg;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+
+section{
+    .content{
+        @include boxProperty(785px, auto, none, none, none);
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        h1:nth-child(1){
+            @include textProperty(700, 48px, 72px, #171717);
+            text-align: center;
+        }
+        #ket{
+            width: 660px;
+            text-align: center;
+            margin: auto;
+            @include textProperty(400, 18px, 27px, #282828);
+            margin-bottom: 10%;
+            span{ font-weight: 700; }
+        }
+        .box-payment{
+            margin: auto;
+            padding-top: 4%;
+            @include boxProperty(783px, auto, none, 30px, white);
+            #nama-paket{
+                @include textProperty(700, 24px, 36px, #171717);
+                text-align: center;
+                margin-bottom: 7%;
+            }
+            ul{
+                margin-left: 4%;
+                li{
+                    @include textProperty(400, 18px, 27px, #1D1D1D);
+                    list-style-image: url(../../../assets/check_blue.png);
+                    margin-bottom: 2%;
+                    padding-left: 3%;
+                }
+            }
+            .line{
+                width: 703px;
+                border-bottom: 1px solid black;
+                margin: auto;
+                margin-top: 4%;
+                margin-bottom: 4%;
+            }
+            .detail{
+                display: flex;
+                margin-left: 5%;
+                p:nth-child(1){
+                    @include textProperty(400, 18px, 27px, #1D1D1D);
+                    width: 205px;
+                    .jumlah-diskon{ font-weight: 700; }
+                }
+                p:nth-child(2){
+                    @include textProperty(700, 18px, 27px, #1D1D1D);
+                    width: 205px;
+                    margin-top: 0%;
+                    margin-left: 39.5%;
+                    text-align: end;
+                }
+                #discon{ color: #1B5C04; }
+                #layanan{ color: #A90D1C; }
+            }
+            #checkbox{
+                @include boxProperty(20px, 20px, none, 5px, #C4C4C4);
+                color: #C4C4C4;
+                margin-left: 5%;
+                margin-top: 5%;
+                margin-bottom: 3%;
+            }
+            #text-checkbox{
+                @include textProperty(400, 18px, 27px, #1D1D1D);
+                padding-left: 3%;
+                span{ font-weight: 700; }
+            }
+            #btn-confirm{
+                margin: auto;
+                @include boxProperty(702px, 80.4px, none, 20px, #0C39A1);
+                @include textProperty(700, 18px, 27px, white);
+                margin-left: 5%;
+                margin-bottom: 5%;
+                &:active{ background: #092463; }
+            }
+        }
+    }
+}

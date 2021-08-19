@@ -1,0 +1,45 @@
+body {
+  background-color: #E5E5E5;
+}
+
+section .content {
+  width: 785px;
+  height: auto;
+  border: none;
+  border-radius: none;
+  background: none;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+section .content h1:nth-child(1) {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  color: #171717;
+  text-align: center;
+}
+section .content #ket {
+  width: 660px;
+  text-align: center;
+  margin: auto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #282828;
+  margin-bottom: 10%;
+}
+section .content #ket span {
+  font-weight: 700;
+}
+section .content .box-payment {
+  margin: auto;
+  padding-top: 4%;
+  width: 783px;
+  height: auto;
+  border: none;
+  border-radius: 30px;
+  background: white;
+}
+
+/*# sourceMappingURL=style.css.map */

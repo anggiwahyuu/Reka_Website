@@ -1,0 +1,140 @@
+body {
+  background-color: #E5E5E5;
+}
+
+section .content {
+  width: 785px;
+  height: auto;
+  border: none;
+  border-radius: none;
+  background: none;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+section .content h1:nth-child(1) {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  color: #171717;
+  text-align: center;
+}
+section .content #ket {
+  width: 660px;
+  text-align: center;
+  margin: auto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #282828;
+  margin-bottom: 10%;
+}
+section .content #ket span {
+  font-weight: 700;
+}
+section .content .box-payment {
+  margin: auto;
+  padding-top: 4%;
+  width: 783px;
+  height: auto;
+  border: none;
+  border-radius: 30px;
+  background: white;
+}
+section .content .box-payment #nama-paket {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #171717;
+  text-align: center;
+  margin-bottom: 7%;
+}
+section .content .box-payment ul {
+  margin-left: 4%;
+}
+section .content .box-payment ul li {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #1D1D1D;
+  list-style-image: url(../../../assets/check_blue.png);
+  margin-bottom: 2%;
+  padding-left: 3%;
+}
+section .content .box-payment .line {
+  width: 703px;
+  border-bottom: 1px solid black;
+  margin: auto;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+section .content .box-payment .detail {
+  display: flex;
+  margin-left: 5%;
+}
+section .content .box-payment .detail p:nth-child(1) {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #1D1D1D;
+  width: 205px;
+}
+section .content .box-payment .detail p:nth-child(1) .jumlah-diskon {
+  font-weight: 700;
+}
+section .content .box-payment .detail p:nth-child(2) {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #1D1D1D;
+  width: 205px;
+  margin-top: 0%;
+  margin-left: 39.5%;
+  text-align: end;
+}
+section .content .box-payment .detail #discon {
+  color: #1B5C04;
+}
+section .content .box-payment .detail #layanan {
+  color: #A90D1C;
+}
+section .content .box-payment #checkbox {
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 5px;
+  background: #C4C4C4;
+  color: #C4C4C4;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+section .content .box-payment #text-checkbox {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #1D1D1D;
+  padding-left: 3%;
+}
+section .content .box-payment #text-checkbox span {
+  font-weight: 700;
+}
+section .content .box-payment #btn-confirm {
+  margin: auto;
+  width: 702px;
+  height: 80.4px;
+  border: none;
+  border-radius: 20px;
+  background: #0C39A1;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: white;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+section .content .box-payment #btn-confirm:active {
+  background: #092463;
+}
+
+/*# sourceMappingURL=style.css.map */
