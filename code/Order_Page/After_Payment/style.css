@@ -41,53 +41,59 @@ section .content .box-payment {
   border-radius: 30px;
   background: white;
 }
-section .content .box-payment .box-content {
-  margin: auto;
-}
-section .content .box-payment .box-content h2 {
-  margin: auto;
+section .content .box-payment #nama-paket {
   font-weight: 700;
   font-size: 24px;
   line-height: 36px;
   color: #171717;
   text-align: center;
-  width: 702px;
+  margin-bottom: 7%;
 }
-section .content .box-payment .box-content h2 span {
-  color: #0C39A1;
+section .content .box-payment ul {
+  margin-left: 4%;
 }
-section .content .box-payment .box-content #deal {
-  margin-left: 5%;
-  margin-top: 7%;
-}
-section .content .box-payment .box-content #deal p {
+section .content .box-payment ul li {
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
   color: #1D1D1D;
-  margin-bottom: 0;
+  list-style-image: url(../../../assets/check_blue.png);
+  margin-bottom: 2%;
+  padding-left: 3%;
 }
-section .content .box-payment .box-content #deal p span {
-  font-weight: 700;
+section .content .box-payment .line {
+  width: 703px;
+  border-bottom: 1px solid black;
+  margin: auto;
+  margin-top: 4%;
+  margin-bottom: 4%;
 }
-section .content .box-payment .box-content #copy {
-  width: 101px;
-  height: 31px;
-  border: none;
-  border-radius: 5px;
-  background: #DDE7FE;
-  font-weight: 700;
-  font-size: 9px;
-  line-height: 13.5px;
-  color: #0C39A1;
-  margin-top: 3%;
-  margin-bottom: 7%;
+section .content .box-payment .detail {
+  display: flex;
   margin-left: 5%;
+  margin-bottom: 3%;
 }
-section .content .box-payment .box-content #copy:active {
-  background: #aeb6c9;
+section .content .box-payment .detail p:nth-child(1) {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #1D1D1D;
+  width: 205px;
 }
-section .content .box-payment .box-content #btn-call {
+section .content .box-payment .detail p:nth-child(1) .jumlah-diskon {
+  font-weight: 700;
+}
+section .content .box-payment .detail p:nth-child(2) {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #1D1D1D;
+  width: 205px;
+  margin-top: 0%;
+  margin-left: 39.5%;
+  text-align: end;
+}
+section .content .box-payment #btn-admin {
   width: 702px;
   height: 80.4px;
   border: none;
@@ -100,10 +106,10 @@ section .content .box-payment .box-content #btn-call {
   margin-bottom: 3%;
   margin-left: 5%;
 }
-section .content .box-payment .box-content #btn-call:active {
+section .content .box-payment #btn-admin:active {
   background: #082364;
 }
-section .content .box-payment .box-content #btn-pay {
+section .content .box-payment #btn-back {
   width: 702px;
   height: 80.4px;
   border: 2px solid black;
@@ -116,7 +122,7 @@ section .content .box-payment .box-content #btn-pay {
   margin-bottom: 5%;
   margin-left: 5%;
 }
-section .content .box-payment .box-content #btn-pay:active {
+section .content .box-payment #btn-back:active {
   background: #b1b1b1;
 }
 

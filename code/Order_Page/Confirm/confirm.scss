@@ -39,6 +39,48 @@ section{
             margin: auto;
             padding-top: 4%;
             @include boxProperty(783px, auto, none, 30px, white);
+
+            .box-content{
+                margin: auto;
+                h2{
+                    margin: auto;
+                    @include textProperty(700, 24px, 36px, #171717);
+                    text-align: center;
+                    width: 702px;
+                    span{ color: #0C39A1; }
+                }
+                #deal{
+                    margin-left: 5%;
+                    margin-top: 7%;
+                    p{
+                        @include textProperty(400, 18px, 27px, #1D1D1D);
+                        margin-bottom: 0;
+                        span{ font-weight: 700; }
+                    }
+                }
+                #copy{
+                    @include boxProperty(101px, 31px, none, 5px, #DDE7FE);
+                    @include textProperty(700, 9px, 13.5px, #0C39A1);
+                    margin-top: 3%;
+                    margin-bottom: 7%;
+                    margin-left: 5%;
+                    &:active{ background: #aeb6c9; }
+                }
+                #btn-call{
+                    @include boxProperty(702px, 80.4px, none, 20px, #0C39A1);
+                    @include textProperty(700, 18px, 27px, white);
+                    margin-bottom: 3%;
+                    margin-left: 5%;
+                    &:active{ background: #082364; }
+                }
+                #btn-pay{
+                    @include boxProperty(702px, 80.4px, 2px solid black, 20px, white);
+                    @include textProperty(700, 18px, 27px, #111111);
+                    margin-bottom: 5%;
+                    margin-left: 5%;
+                    &:active{ background: rgb(177, 177, 177); }
+                }
+            }
         }
     }
 }
