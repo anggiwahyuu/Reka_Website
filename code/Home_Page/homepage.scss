@@ -103,7 +103,7 @@ body{overflow-x: hidden;}
 }
 
 .title-reka{
-    width: 459px;
+    width: 479px;
     height: 216px;
     font-size: 48px;
     line-height: 72px;
@@ -112,9 +112,12 @@ body{overflow-x: hidden;}
 }
 
 .reka-para{
+    width: 594px;
+    height: 132px;
     font-size: 18px;
     line-height: 33.48px;
     font-weight: 400;
+    text-align: justify;
 }
 
 .btn-single{
@@ -144,17 +147,6 @@ body{overflow-x: hidden;}
     &:active{
         background-color: #111111;
     }
-}
-
-.character-1{
-    position: absolute;
-    width: 1122px;
-    height: 673px;
-    top: 30%;
-    right: 0;
-    left: 40%;
-    overflow: hidden;
-    margin-top: -26.7%;
 }
 
 .new{
@@ -200,6 +192,12 @@ body{overflow-x: hidden;}
         .logo-spotify{
             width: 52px;
             height: 52px;
+            border-radius: 50%;
+        }
+
+        .logo-ytmusic{
+            width: 52px;
+            height: 26px;
             border-radius: 50%;
         }
 
@@ -312,6 +310,29 @@ body{overflow-x: hidden;}
     background-color: #F6F6F6;
 }
 
+.section-1{
+    display: flex;
+    .content-1{
+        position: relative;
+        width: 50%;
+        .text{
+            margin-left: 20%
+        }
+    }
+    .content-2{
+        position: relative;
+        width: 50%;
+        overflow: hidden;
+        img{
+            width: 1022px;
+            height: 1532px;
+            position: relative;
+            margin-top: 5.6%;
+            margin-left: -10%;
+        }
+    }
+}
+
 .section-2{
     margin-top: 3%;
 
@@ -408,119 +429,118 @@ body{overflow-x: hidden;}
 
 .section-5{
     margin-top: 5%;
-
-    .content-box-2{
+    .content-box{
         margin: auto;
         width: 1300px;
-        height: 743px;
+        height: 371px;
         border: none;
         border-radius: 30px;
         border-top-left-radius: 34px;
         border-top-right-radius: 34px;
-        background-color: black;
-
-        .content-box{
+        background-color: #F6F6F6;
+        .soundworks{
+            display: inline-block;
+            border: none;
+            width: 788px;
             height: 371px;
-            position: relative;
-
-            .soundworks{
-                display: inline-block;
-                border: none;
-                width: 788px;
-                height: 371px;
-                border-radius: 30px;
-                background: linear-gradient(120.64deg, #3366DB 31.4%, #00174D 86.05%);
-
-                img{
-                    width: 350px;
-                    height: 60px;
-                }
-
-                p{
-                    font-size: 24px;
-                    font-weight: 700;
-                    line-height: 36px;
-                    color: white;
-
-                    span{
-                        font-weight: 400;
-                    }
-                }
+            border-radius: 30px;
+            background: linear-gradient(120.64deg, #3366DB 31.4%, #00174D 86.05%);
+            img{
+                width: 350px;
+                height: 60px;
             }
-            .right{
-                display: inline-block;
-                margin-left: 5%;
-                p{
-                    width: 390px;
-                    font-weight: 600;
-                    font-size: 24px;
-                    line-height: 36px;
-                    color: #1D1D1D;
-                    text-align: center;
-                }
-                .btn-storyworks{
-                    width: 385px;
-                    height: 59px;
-                    border: none;
-                    border-radius: 30px;
-                    background: linear-gradient(91.55deg, #0D3DAB 21.44%, #00174D 89.25%);
-                    font-weight: 600;
-                    font-size: 24px;
-                    line-height: 36px;
-                    color: white;
-                    text-align: center;
-    
-                    &:active{
-                        background: linear-gradient(91.55deg, #05112e 21.44%, #040a1a 89.25%);
-                    }
+            p{
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 36px;
+                color: white;
+
+                span{
+                    font-weight: 400;
                 }
             }
         }
-        .music-container{
-            width: 518px;
-            height: 218px;
+        .right{
             display: inline-block;
-
-            .music{
+            margin-left: 5%;
+            p{
+                width: 390px;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 36px;
+                color: #1D1D1D;
+                text-align: center;
+            }
+            .btn-storyworks{
+                width: 385px;
+                height: 59px;
+                border: none;
+                border-radius: 30px;
+                background: linear-gradient(91.55deg, #0D3DAB 21.44%, #00174D 89.25%);
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 36px;
+                color: white;
+                text-align: center;
+    
+                &:active{
+                    background: linear-gradient(91.55deg, #05112e 21.44%, #040a1a 89.25%);
+                }
+            }
+        }
+    }
+    .megareka-content{
+        width: 100%;
+        height: 482px;
+        background-color: black;
+        margin-top: 7%;
+        display: flex;
+        .left-panel{
+            width: 40%;
+            height: 100%;
+            overflow: hidden;
+            img{
+                position: relative;
+                margin-top: 15%;
                 width: 100%;
-                height: 84px;
-                background-color: #262626;
-                border-radius: 5px;
-                display: flex;
-
-                img{
-                    width: 84px;
-                    height: 84px;
-                    border-radius: 5px;
-                }
-
-                .text{
-                    p:nth-child(1){
-                        font-weight: bold;
-                        font-size: 18px;
-                        line-height: 27px;
-                        color: #FFFFFF;
-                    }
-                    p:nth-child(2){
-                        font-size: 12px;
-                        line-height: 18px;
-                        color: #FFFFFF;
-                        margin-top: -12%;
+                height: 80%;
+            }
+        }
+        .right-panel{
+            width: 60%;
+            height: 100%;
+            .right-content{
+                margin-top: 6%;
+                h2{
+                    font-weight: 700;
+                    font-size: 36px;
+                    font-style: italic;
+                    line-height: 54px;
+                    color: white;
+                    margin-bottom: 3%;
+                    span{
+                        padding-left: 2%;
                     }
                 }
-                
-                .play{
-                    width: 48px;
-                    height: 48px;
-                    border-radius: 50%;
-                    background-color: #111111;
-                    border: none;
-                    margin-left: 32%;
-
-                    img{
-                        width: 18px;
-                        height: 18px;
-                        margin-left: 2%;
+                p{
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 27px;
+                    color: white;
+                    width: 791px;
+                    margin-bottom: 7%;
+                }
+                .btn-megareka{
+                    border: 1px solid rgba(0, 0, 0, 0);
+                    border-radius: 30px;
+                    font-size: 24px;
+                    font-weight: 600;
+                    line-height: 36px;
+                    text-align: center;
+                    color: white;
+                    background: linear-gradient(91.55deg, #0D3DAB 21.44%, #00174D 89.25%);
+                    &:active{
+                        background: linear-gradient(91.55deg, #05112e 21.44%, #040a1a 89.25%);
                     }
                 }
             }
@@ -530,25 +550,114 @@ body{overflow-x: hidden;}
 
 .section-6{
     margin-top: 5%;
+    width: 100%;
 
-    .character-2{
-        margin: auto;
-        width: 1514px;
-        height: 757px;
+    .section-6-content{
+        width: 100%;
+        height: 803px;
+        background: url(../../assets/Mask_Group.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        .sized-box{
+            height: 73%;
+        }
+        button{
+            border: none;
+            position: relative;
+            width: 286px;
+            height: 56px;
+            background: inherit;
+            backdrop-filter: blur(50px);
+            border-radius: 40px;
+            box-shadow: inset 0 0 2000px rgba(30, 64, 175, 0.71);
+            color: white;
+            font-size: 18px;
+            line-height: 27px;
+
+            &:active{
+                background: rgba(8, 15, 41, 0.71);
+                backdrop-filter: blur(10px);
+            }
+        }
     }
-
-    button{
+    .build{
+        padding: auto;
+        margin: auto;
+        width: 1300px;
+        height: 487px;
+        background: #404EED;
         border: none;
-        width: 286px;
-        height: 56px;
-        background-color: #1E40AF;
-        border-radius: 20px;
-        color: white;
-        font-size: 18px;
-        line-height: 27px;
-
-        &:active{
-            background-color: #122669;
+        border-radius: 50px;
+        margin-top: 5%;
+        #content-text{
+            position: relative;
+            margin: auto;
+            padding: auto;
+            text-align: center;
+            padding-top: 3%;
+            z-index: 2;
+            h2{
+                font-size: 48px;
+                font-weight: 900;
+                line-height: 72px;
+                color: white;
+                padding-bottom: 3%;
+            }
+            p{
+                width: 1109px;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 27px;
+                color: white;
+                span{
+                    font-weight: 700;
+                    font-style: italic;
+                }
+                padding-bottom: 3%;
+            }
+            .button-content{
+                #join_discord{
+                    width: 280px;
+                    height: 66px;
+                    background: white;
+                    border: none;
+                    border-radius: 45px;
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 36px;
+                    text-align: center;
+                    color: black;
+                    margin-right: 2%;
+                    span{
+                        margin-right: 7%;
+                    }
+                    &:active{
+                        background: rgb(161, 161, 161);
+                    }
+                }
+                #support_reka{
+                    width: 244px;
+                    height: 66px;
+                    background: black;
+                    border: none;
+                    border-radius: 45px;
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 36px;
+                    text-align: center;
+                    color: white;
+                    &:active{
+                        background: rgb(66, 66, 66);
+                    }
+                }
+            }
+        }
+        #vector{
+            position: relative;
+            margin-top: -4.1%;
+            border-bottom-left-radius: 45px;
+            border-bottom-right-radius: 45px;
+            z-index: 1;
         }
     }
 }
@@ -570,8 +679,8 @@ body{overflow-x: hidden;}
                 background-color: #E9E9E9;
 
                 img{
-                    width: 72px;
-                    height: 71px;
+                    width: 38px;
+                    height: 38px;
                     border-radius: 50%;
                 }
 
@@ -587,7 +696,48 @@ body{overflow-x: hidden;}
                 }
 
                 &:hover{
-                    background: linear-gradient(119.97deg, #C8FABF 6.09%, #238A12 125.86%, rgba(34, 121, 20, 0) 128.4%);
+                    background: linear-gradient(119.97deg, #EDDBFF 6.09%, #A8CDF9 125.86%);
+                }
+            }
+        }
+    }
+}
+
+.section-8{
+    margin: auto;
+    margin-top: 5%;
+
+    .content-box{
+        height: 620px;
+
+        .partner{
+            display: flex;
+
+            .box{
+                width: 406px;
+                height: 285px;
+                border-radius: 30px;
+                background-color: #E9E9E9;
+
+                img{
+                    width: 38px;
+                    height: 38px;
+                    border-radius: 50%;
+                }
+
+                p:nth-child(2){
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 36px;
+                }
+                p:nth-child(3){
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 27px;
+                }
+
+                &:hover{
+                    background: linear-gradient(119.97deg, #EDDBFF 6.09%, #A8CDF9 125.86%);
                 }
             }
         }
@@ -611,18 +761,24 @@ footer{
             margin-right: 15%;
         }
 
-        div{
+        #text_credit{
             h2{
                 font-weight: 600;
                 font-size: 24px;
                 line-height: 36px;
                 color: white;
             }
-            p{
-                font-weight: 500;
-                font-size: 14px;
-                line-height: 21px;
-                color: #898989;
+            a{
+                text-decoration: none;
+                p{
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 21px;
+                    color: #898989;
+                    &:hover{
+                        color: white;
+                    }
+                }
             }
         }
     }
@@ -630,7 +786,7 @@ footer{
     .copyright{
         width: 100%;
         height: 67px;
-        background-color: #161616;
+        background-color: black;
         position: relative;
         top: 17%;
 
@@ -641,6 +797,12 @@ footer{
             line-height: 27px;
             color: #898989;
             font-weight: 500;
+            .credit-bottom{
+                &:hover{
+                    color: white;
+                    cursor: pointer;
+                }
+            }
         }
     }
 }

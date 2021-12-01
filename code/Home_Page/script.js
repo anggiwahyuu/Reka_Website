@@ -2,7 +2,7 @@
 const TypingText = document.querySelector(".title-reka");
 const AutoTyping = document.querySelector(".cursor");
 
-const textArray = ["Reka is New Music Collaborations Platform"];
+const textArray = ["Reka is a New Label Collaborations Platform"];
 const typingDelay = 50;
 const erasingDelay = 100;
 const newTextDelay = 1000; 
