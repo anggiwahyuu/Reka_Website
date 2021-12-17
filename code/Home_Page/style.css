@@ -47,6 +47,9 @@ body {
   border-bottom-left-radius: 80px;
   font-size: 18px; }
 
+.nav-item {
+  margin-left: 10%; }
+
 .color-black {
   color: #1D1D1D; }
 
@@ -163,9 +166,8 @@ body {
       height: 52px;
       border-radius: 50%; }
     .music-dropdown .music-nav .logo-ytmusic {
-      width: 52px;
-      height: 26px;
-      border-radius: 50%; }
+      width: 60px;
+      height: 20px; }
     .music-dropdown .music-nav .spotisfy {
       position: absolute;
       left: 39%;
@@ -389,9 +391,9 @@ body {
       overflow: hidden; }
       .section-5 .megareka-content .left-panel img {
         position: relative;
-        margin-top: 15%;
-        width: 100%;
-        height: 80%; }
+        margin-top: 12%;
+        width: 690px;
+        height: 482px; }
     .section-5 .megareka-content .right-panel {
       width: 60%;
       height: 100%; }
@@ -643,6 +645,8 @@ footer {
       line-height: 27px;
       color: #898989;
       font-weight: 500; }
+      footer .copyright p br {
+        display: none; }
       footer .copyright p .credit-bottom:hover {
         color: white;
         cursor: pointer; }
@@ -653,6 +657,24 @@ footer {
 @media (max-width: 720px) {
   body {
     overflow-x: hidden; }
+
+  .nav-item {
+    margin-left: 0; }
+
+  .dropdown-menu {
+    height: auto;
+    width: auto;
+    margin-left: -10%; }
+    .dropdown-menu .row {
+      display: block; }
+    .dropdown-menu .spotisfy {
+      margin-top: 11%;
+      margin-left: -10%; }
+    .dropdown-menu .spotisfy-2 {
+      margin-top: 5%; }
+
+  .reka-dropdown {
+    margin-left: -25%; }
 
   .section-1 {
     width: 100%;
@@ -898,7 +920,7 @@ footer {
         .section-7 .content-box .partner .box {
           margin: 0;
           padding: 0;
-          width: 180px;
+          width: 44%;
           height: 150px;
           margin-left: 3%;
           margin-right: 3%;
@@ -906,16 +928,22 @@ footer {
           .section-7 .content-box .partner .box img {
             width: 100px;
             height: 20px;
-            margin-left: -25%; }
+            margin: 0;
+            padding: 0;
+            margin-left: -17%; }
           .section-7 .content-box .partner .box p:nth-child(2) {
             font-size: 10px;
             line-height: 12px;
-            margin-left: -25%; }
+            margin: 0;
+            padding: 0;
+            margin-left: -17%; }
           .section-7 .content-box .partner .box p:nth-child(3) {
             font-size: 10px;
             line-height: 12px;
             width: 120%;
-            margin-left: -25%; }
+            margin: 0;
+            padding: 0;
+            margin-left: -17%; }
 
   .section-8 {
     height: auto; }
@@ -940,7 +968,7 @@ footer {
         .section-8 .content-box .partner .box {
           margin: 0;
           padding: 0;
-          width: 180px;
+          width: 44%;
           height: 150px;
           margin-left: 3%;
           margin-right: 3%;
@@ -962,15 +990,23 @@ footer {
           .section-8 .content-box .partner .box .bagbeat {
             width: 35px;
             height: 25px; }
+          .section-8 .content-box .partner .box img {
+            margin: 0;
+            padding: 0;
+            margin-left: -17%; }
           .section-8 .content-box .partner .box p:nth-child(2) {
             font-size: 10px;
             line-height: 12px;
-            margin-left: -25%; }
+            margin: 0;
+            padding: 0;
+            margin-left: -17%; }
           .section-8 .content-box .partner .box p:nth-child(3) {
             font-size: 10px;
             line-height: 12px;
             width: 120%;
-            margin-left: -25%; }
+            margin: 0;
+            padding: 0;
+            margin-left: -17%; }
 
   footer {
     height: auto; }
@@ -1002,7 +1038,189 @@ footer {
           footer .credit .content-text #text_credit a p {
             font-size: 12px;
             line-height: 10px; }
-    footer .copyright span {
-      display: none; } }
+    footer .copyright {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: auto; }
+      footer .copyright p {
+        padding: auto;
+        margin: auto;
+        width: 50%; }
+        footer .copyright p br {
+          display: block; }
+        footer .copyright p .px-4 {
+          display: none; } }
+@media (min-width: 720px) and (max-width: 996px) {
+  body {
+    overflow-x: hidden; }
+
+  .spotisfy {
+    margin-top: 6%;
+    margin-left: -17%; }
+
+  .spotisfy-2 {
+    margin-top: 1%; }
+
+  .section-1 {
+    display: block; }
+    .section-1 .content-1 {
+      width: 100%; }
+      .section-1 .content-1 .text {
+        margin: 0; }
+    .section-1 .content-2 {
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      margin-top: -68%;
+      opacity: 0.3; }
+
+  .section-2 {
+    width: 100%;
+    height: auto; }
+    .section-2 .content-box {
+      width: 95%;
+      height: 500px; }
+
+  .section-3 {
+    width: 100%;
+    height: auto; }
+    .section-3 .content-box {
+      width: 95%;
+      height: 390px; }
+      .section-3 .content-box .video-box {
+        width: 100%; }
+        .section-3 .content-box .video-box .video {
+          width: 42%;
+          height: 300px; }
+
+  .section-4 {
+    width: 100%;
+    height: auto; }
+    .section-4 .content-box {
+      width: 95%;
+      height: auto;
+      display: block;
+      flex-direction: column; }
+      .section-4 .content-box .storydev {
+        display: block;
+        width: 100%; }
+      .section-4 .content-box .right {
+        display: block;
+        height: 200px;
+        padding: auto;
+        margin: auto; }
+        .section-4 .content-box .right p {
+          margin: 0;
+          margin: auto; }
+        .section-4 .content-box .right button {
+          margin: 0;
+          margin-left: 25%; }
+
+  .section-5 {
+    width: 100%;
+    height: auto; }
+    .section-5 .content-box {
+      width: 95%;
+      height: auto;
+      display: block;
+      flex-direction: column; }
+      .section-5 .content-box .soundworks {
+        display: block;
+        width: 100%; }
+      .section-5 .content-box .right {
+        display: block;
+        height: 200px;
+        padding: auto;
+        margin: auto; }
+        .section-5 .content-box .right p {
+          margin: 0;
+          margin: auto; }
+        .section-5 .content-box .right button {
+          margin: 0;
+          margin-left: 25%; }
+    .section-5 .megareka-content {
+      width: 100%;
+      height: auto; }
+      .section-5 .megareka-content .left-panel {
+        display: none; }
+      .section-5 .megareka-content .right-panel {
+        padding-bottom: 6%;
+        margin: 0;
+        margin: auto; }
+        .section-5 .megareka-content .right-panel .right-content h2 {
+          text-align: center; }
+        .section-5 .megareka-content .right-panel .right-content p {
+          width: 100%;
+          text-align: center; }
+        .section-5 .megareka-content .right-panel .right-content button {
+          margin-left: 6%; }
+
+  .section-6 .section-6-content {
+    width: 100%;
+    height: 400px; }
+    .section-6 .section-6-content .sized-box {
+      display: none; }
+    .section-6 .section-6-content button {
+      margin-top: 30%; }
+  .section-6 .build {
+    width: 90%; }
+    .section-6 .build #content-text {
+      margin-top: 5%; }
+      .section-6 .build #content-text p {
+        width: 100%; }
+
+  .section-7 {
+    height: auto; }
+    .section-7 .content-box {
+      width: 90%;
+      height: auto; }
+      .section-7 .content-box .partner {
+        width: 100%; }
+        .section-7 .content-box .partner .box {
+          width: 47%;
+          margin: 0;
+          margin-left: 3%;
+          margin-bottom: 3%; }
+
+  .section-8 {
+    height: auto; }
+    .section-8 .content-box {
+      width: 90%;
+      height: auto; }
+      .section-8 .content-box .partner {
+        width: 100%; }
+        .section-8 .content-box .partner .box {
+          width: 47%;
+          margin: 0;
+          margin-left: 3%;
+          margin-bottom: 3%; }
+
+  footer {
+    height: auto; }
+    footer .credit {
+      width: 100%;
+      height: auto;
+      display: block;
+      padding: 0;
+      margin: 0; }
+      footer .credit img {
+        margin: auto;
+        padding: auto;
+        margin-left: 40%;
+        margin-bottom: 5%;
+        margin-top: 5%; }
+      footer .credit .content-text {
+        width: 100%;
+        flex-wrap: wrap; }
+        footer .credit .content-text #text_credit {
+          position: relative;
+          margin-right: 15%;
+          margin-left: 15%;
+          margin-bottom: 10%; }
+    footer .copyright {
+      margin: 0;
+      padding: 0;
+      width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */
