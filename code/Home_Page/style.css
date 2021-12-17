@@ -1029,7 +1029,7 @@ footer {
         flex-wrap: wrap; }
         footer .credit .content-text #text_credit {
           position: relative;
-          margin-right: 20%;
+          margin-right: 16%;
           margin-left: 6%;
           margin-bottom: 10%; }
           footer .credit .content-text #text_credit h2 {
@@ -1045,8 +1045,7 @@ footer {
       height: auto; }
       footer .copyright p {
         padding: auto;
-        margin: auto;
-        width: 50%; }
+        margin: auto; }
         footer .copyright p br {
           display: block; }
         footer .copyright p .px-4 {
